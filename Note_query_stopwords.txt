@@ -1,0 +1,7 @@
+Filtering the search word:
+We have used "H1B" as our search word. We are searching this word in Tweets and articles in New York Times. For Twitter search, we used tweepy.
+For NYT, we used nytimesarticle package. The API search of NYT returns URLs. We used BeautifulSoup to extract articles from URLs.
+
+Removing Stopwords:
+Stopwords are removed in the mapper. We used list of words provided by nltk.corpus as stopwords. Some words have been added manually to the list 
+of stopwords according to the requirement of the data. The punctuations are removed using Regular expressions. The processed is further used in MapReduce.

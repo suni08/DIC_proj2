@@ -1,4 +1,4 @@
-# DIC_proj2
+# Wordcloud-Data-visualization
 
 Collected tweets using TwitterAPI, python(twitteR) , R from twitter and articles using NYTimesAPI from NYTimes, implemented map-reduce algorithm for word count using Hadoop, and displayed the words using HTML, CSS and JavaScript forming a wordcloud with different fontsizes representing their frequencies. Step wise execution:
 
